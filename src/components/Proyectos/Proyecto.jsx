@@ -18,11 +18,11 @@ const Proyecto = ({imagen, imagenwebp, alt, cardTitle, badges, cardText, github,
                     <div className="card-body text-center">
                         <div className="row">
                             <div className="col-6">
-                                <a href={github} target="_blank" className="btn btn-secondary w-100">GitHub</a>
+                                <a href={github} target="_blank" rel="noreferrer" className="btn btn-secondary w-100">GitHub</a>
                             </div>
 
                             <div className="col-6">
-                                <a href={link} target="_blank" className="btn btn-second d-block w-100">Visitar</a>
+                                <a href={link} target="_blank" rel="noreferrer" className="btn btn-second d-block w-100">Visitar</a>
                             </div>
                         </div>
                     </div>
