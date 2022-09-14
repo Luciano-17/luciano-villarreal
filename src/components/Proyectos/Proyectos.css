@@ -1,0 +1,8 @@
+.btn-second {
+    background-color: rgb(249 115 22);
+    color: #e1e1e1 !important;
+    transition: 200ms all;
+}
+.btn-second:hover {
+    background-color: rgb(234 88 12);
+}

@@ -1,0 +1,54 @@
+#habilidades .container h2 {
+    margin-top: 50px;
+}
+
+#habilidades .container .row i {
+    font-size: 50px;
+}
+
+.container-skill {
+    transition: 200ms color;
+}
+
+.html:hover {
+    color: #e34c26;
+}
+.css:hover {
+    color: #264de4;
+}
+.sass:hover {
+    color: #cd6799;
+}
+.tailwind:hover {
+    color: #60a5fa;
+}
+.bootstrap:hover {
+    color: #563d7c;
+}
+.js:hover {
+    color: #c1b041;
+}
+.react:hover {
+    color: #3a97ae;
+}
+.node:hover {
+    color:  #68a063;
+}
+.mongo:hover {
+    color: #3FA037;
+}
+.c:hover {
+    color: #A292BA;
+}
+.net:hover {
+    color: #4A1D69;
+}
+.server:hover {
+    color: #FF0000;
+}
+.mysql:hover {
+    color: #F29111;
+}
+.php:hover {
+    color: #8993be;
+}
