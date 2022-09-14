@@ -1,14 +1,16 @@
-const Proyecto = ({imagen, alt, cardTitle, badges, cardText, github, link}) => {
+const Proyecto = ({imagen, imagenwebp, alt, cardTitle, badges, cardText, github, link}) => {
     return (
         <>
             <div className="col-12 col-md-6 col-lg-4 mb-4">
                 <div className="card shadow">
-                    <img src={imagen} className="card-img-top" alt={alt}/>
+                    <picture>
+                        <source srcSet={imagenwebp} type="type/webp" />
+                        <source srcSet={imagen} type="type/jpeg" />
+                        <img src={imagen} className="card-img-top" alt={alt} loading='lazy' />
+                    </picture>
 
                     <div className="card-body">
                         <h5 className="card-title mb-0">{cardTitle}</h5>
-                        {/* <span className="badge rounded-pill bg-danger">HTML</span>
-                        <span className="badge rounded-pill bg-primary ms-1">CSS</span> */}
                         {badges}
                         <p className="card-text mt-4">{cardText}</p>
                     </div>

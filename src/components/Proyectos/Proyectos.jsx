@@ -9,6 +9,16 @@ import apv from '../../assets/projects/apv.png';
 import todo from '../../assets/projects/todo.png';
 import uptask from '../../assets/projects/uptask.png';
 
+import blogdecafewebp from '../../assets/projects/blogdecafe.webp';
+import festivalrockwebp from '../../assets/projects/festivalrock.webp';
+import appsalonClientewebp from '../../assets/projects/appsalon-cliente.webp';
+import appsalonAdminwebp from '../../assets/projects/appsalon-admin.webp';
+import bienesraiceswebp from '../../assets/projects/bienesraices.webp';
+import admgimwebp from '../../assets/projects/admgim.webp';
+import apvwebp from '../../assets/projects/apv.webp';
+import todowebp from '../../assets/projects/todo.webp';
+import uptaskwebp from '../../assets/projects/uptask.webp';
+
 import Proyecto from './Proyecto';
 
 const Proyectos = () => {
@@ -20,7 +30,7 @@ const Proyectos = () => {
 
                     <div className="row">
                         <Proyecto 
-                            imagen={blogdecafe} alt="blog de café" cardTitle="Blog de café" 
+                            imagen={blogdecafe} imagenwebp={blogdecafewebp} alt="blog de café" cardTitle="Blog de café" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-danger">HTML</span>
@@ -33,7 +43,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={festivalrock} alt="festival de rock" cardTitle="Festival de Rock" 
+                            imagen={festivalrock} imagenwebp={festivalrockwebp} alt="festival de rock" cardTitle="Festival de Rock" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-danger">HTML</span>
@@ -47,7 +57,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={appsalonCliente} alt="aplicación de peluqueria" cardTitle="Aplicación de barbería" 
+                            imagen={appsalonCliente} imagenwebp={appsalonClientewebp} alt="aplicación de peluqueria" cardTitle="Aplicación de barbería" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">React</span>
@@ -61,7 +71,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={appsalonAdmin} alt="administrador de peluqueria" cardTitle="Admin de barbería" 
+                            imagen={appsalonAdmin} imagenwebp={appsalonAdminwebp} alt="administrador de peluqueria" cardTitle="Admin de barbería" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">React</span>
@@ -75,7 +85,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={bienesraices} alt="Aplicacion de bienes raices" cardTitle="Bienes raices" 
+                            imagen={bienesraices} imagenwebp={bienesraiceswebp} alt="Aplicacion de bienes raices" cardTitle="Bienes raices" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">PHP</span>
@@ -90,7 +100,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={todo} alt="Administrador de tareas" cardTitle="Admin de tareas" 
+                            imagen={todo} imagenwebp={admgimwebp} alt="Administrador de tareas" cardTitle="Admin de tareas" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">React</span>
@@ -103,7 +113,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={uptask} alt="Admin de tareas uptask" cardTitle="UpTask" 
+                            imagen={uptask} imagenwebp={apvwebp} alt="Admin de tareas uptask" cardTitle="UpTask" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">PHP</span>
@@ -118,7 +128,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={admgim} alt="Admin de gimnasio" cardTitle="AdmGim" 
+                            imagen={admgim} imagenwebp={todowebp} alt="Admin de gimnasio" cardTitle="AdmGim" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">React</span>
@@ -132,7 +142,7 @@ const Proyectos = () => {
                         />
 
                         <Proyecto 
-                            imagen={apv} alt="Admin de veterinaria" cardTitle="APV" 
+                            imagen={apv} imagenwebp={uptaskwebp} alt="Admin de veterinaria" cardTitle="APV" 
                             badges={
                                 <>
                                     <span className="badge rounded-pill bg-primary">React</span>
