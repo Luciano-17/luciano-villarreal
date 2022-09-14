@@ -108,8 +108,8 @@ const Proyectos = () => {
                                 </>
                             }
                             cardText="Administrador de tareas diarias." 
-                            github="https://github.com/Luciano-17/Todo-app"
-                            link="https://luciano-17.github.io/Todo-app/"
+                            github="https://github.com/Luciano-17/todo-app"
+                            link="https://todo-villarreal.netlify.app/"
                         />
 
                         <Proyecto 
