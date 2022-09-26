@@ -4,7 +4,7 @@ const Contacto = () => {
     return (
         <>
             <section id='contacto'>
-                <div className="row">
+                <div className="row container-contacto">
                     <div className="col-12 text-center mb-4">
                         <h2 className='text-center m-4'>Mis redes para cualquier contacto</h2>
                         <p className='text-center'>Muchas gracias por visitar mi portafolio, puedes mandarme un correo.</p>

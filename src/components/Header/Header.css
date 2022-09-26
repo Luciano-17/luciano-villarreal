@@ -1,6 +1,12 @@
 #header {
     background-color: #2a2a2a;
 }
+#header .container .btn-darkMode {
+    background-color: transparent;
+    border: none;
+    filter: invert(80%);
+    font-size: 25px;
+}
 #header .container .navbar-toggler i {
     filter: invert(90%);
     font-size: 27px;

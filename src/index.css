@@ -11,10 +11,7 @@ body {
     background-color: var(--white);
     color: var(--black);
     overflow-x: hidden;
-}
-body.dark-mode {
-    background-color: var(--black);
-    color: var(--white);
+    transition: 300ms all;
 }
 ::selection {
     background-color: var(--color-main-light);
@@ -30,4 +27,16 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: var(--color-main-darken);
     border-radius: 100vw;
+}
+
+/* DARK MODE */
+body.darkMode {
+    background-color: var(--black);
+    color: var(--white);
+}
+body.darkMode #header {
+    box-shadow: 1px 1px 5px 1px #000;
+}
+body #header {
+    box-shadow: 1px 1px 5px 1px #2a2a2a;
 }

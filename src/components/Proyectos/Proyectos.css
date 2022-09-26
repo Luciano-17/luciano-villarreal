@@ -1,3 +1,8 @@
+.card {
+    border: none;
+    color: var(--black);
+}
+
 .btn-second {
     background-color: rgb(249 115 22);
     color: #e1e1e1 !important;
