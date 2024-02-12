@@ -1,0 +1,156 @@
+.carrusel {
+    margin-bottom: 10rem;
+}
+.card-proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: 5rem;
+    border: .4rem solid var(--priClaro);
+    background-color: var(--priOscuro);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: grab;
+    transition: 300ms all;
+
+    &:hover {
+        border: .4rem solid var(--secClaro);
+        background-color: var(--secOscuro);
+        box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.75);
+    }
+}
+.card-proyecto img {
+    width: 100%;
+    transition: 300ms all;
+    border: .2rem solid var(--grisClaro);
+}
+.card-proyecto:hover img {
+    transform: translateY(-40%);
+    border: .2rem solid var(--secOscuro);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.card-proyecto .titulo {
+    color: var(--blanco);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.notes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.notes .note {
+    font-size: 1.5rem;
+    color: var(--blanco);
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+.notes .note.html {
+    background-color: #e34c26;
+}
+.notes .note.css {
+    background-color: #264de4;
+}
+.notes .note.sass {
+    background-color: #cd6799;
+}
+.notes .note.tailwind {
+    background-color: #7597b9;
+}
+.notes .note.bootstrap {
+    background-color: #80228f;
+}
+.notes .note.js {
+    background-color: #b3a026;
+}
+.notes .note.react {
+    background-color: #1da9cb;
+}
+.notes .note.php {
+    background-color: #8993be;
+}
+.notes .note.mysql {
+    background-color: #00758F;
+}
+.notes .note.node {
+    background-color: #68a063;
+}
+.notes .note.mongodb {
+    background-color: #4DB33D;
+}
+.proyecto-texto .descripcion {
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 0;
+    color: var(--blanco);
+}
+@media (min-width: 768px) {
+    .proyecto-texto .descripcion {
+        min-height: 7.5rem;
+        margin-top: 2rem;
+    }
+}
+.enlaces {
+    position: relative;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enlaces div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+    transition: 300ms ease-out;
+}
+.card-proyecto:hover .enlaces div {
+    bottom: -1rem;
+    opacity: 1;
+}
+.enlaces a {
+    font-size: 3rem;
+    border: .3rem solid var(--priClaro);
+    background-color: var(--priOscuro);
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color: var(--blanco);
+    transition: 300ms all;
+}
+.card-proyecto:hover .enlaces div a {
+    border: .3rem solid var(--secClaro);
+    background-color: var(--secOscuro);
+}
+.enlaces a:hover {
+    box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.75);
+}
+.carrusel .btns-carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+    margin-top: 2rem;
+}
+.carrusel button.btn-carrusel {
+    font-size: 2rem;
+    padding: 1.5rem 5rem;
+    background-color: var(--priOscuro);
+    border: .3rem solid var(--priClaro);
+    color: var(--blanco);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 300ms all;
+}
+.carrusel button.btn-carrusel:hover {
+    background-color: var(--secOscuro);
+    border: .3rem solid var(--secClaro);
+}

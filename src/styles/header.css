@@ -1,0 +1,59 @@
+header {
+    height: 100vh;
+    background-image: url('../img/banner-dev.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor-presentacion {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.presentacion-texto h1 {
+    color: var(--blanco);
+    margin-bottom: 0;
+}
+.presentacion-texto h1 span {
+    color: var(--primario);
+}
+span.dev {
+    color: var(--blanco);
+    display: block;
+    font-size: 2rem;
+    margin-top: 2rem;
+    white-space: nowrap;
+    border-right: .4rem solid var(--primario);
+    width: 13ch;
+    animation: typing 1.5s steps(13) infinite alternate, blink-care .5s infinite step-end alternate;
+    overflow: hidden;
+}
+  
+@keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 13ch;
+    }
+}
+@keyframes blink-care {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--primario);
+    }
+}
+  

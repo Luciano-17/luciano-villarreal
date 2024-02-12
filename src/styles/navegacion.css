@@ -1,0 +1,71 @@
+.navegacion-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    background-color: rgba(81, 6, 103, 0.6);
+    backdrop-filter: blur(0.5rem);
+    box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 1;
+}
+.navegacion-container.fijo {
+    position: fixed;
+    z-index: 1;
+}
+.navegacion-container a.logo {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--blanco);
+    transition: 300ms color;
+
+    &:hover {
+        color: var(--secundario);
+    }
+}
+.navegacion-container .navegacion {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2.5rem;
+}
+.navegacion-container .navegacion a.nav {
+    color: var(--blanco);
+    border-bottom: 2.5px solid transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transition: 300ms all;
+
+    &:hover {
+        color: var(--secundario);
+        border-bottom: 2.5px solid var(--secundario);
+        padding-bottom: 1rem;
+    }
+}
+.navegacion-container .navegacion a.nav.mostrar {
+    color: var(--secundario);
+    border-bottom: 2.5px solid var(--secundario);
+    padding-bottom: 1rem;
+}
+.navegacion-container .navegacion-buttons {
+    display: flex;
+    gap: 2rem;
+}
+.navegacion-container .navegacion-buttons a.cv,
+.navegacion-container .navegacion-buttons button.dark-mode-btn {
+    background-color: var(--primario);
+    color: var(--blanco);
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: 300ms all;
+
+    &:hover {
+        background-color: var(--secundario);
+        color: var(--blanco);
+        -webkit-box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.75);
+        box-shadow: -6px 6px 30px -5px rgba(0,0,0,0.75);
+    }
+}

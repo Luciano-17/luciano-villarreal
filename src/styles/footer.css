@@ -1,0 +1,18 @@
+#footer {
+    padding: 2.5rem;
+}
+.contenido-footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.redes {
+    display: flex;
+    gap: 2.5rem;
+}

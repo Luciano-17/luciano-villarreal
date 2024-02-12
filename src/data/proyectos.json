@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "nombre": "Turnero de Barbería",
+        "categoria": "Basico",
+        "tecnologias": ["HTML", "Tailwind", "React", "Node"],
+        "descripcion": "Aplicación en donde los usuarios pueden registrar sus turnos, eligiendo el servicio, como la fecha.",
+        "img": "./src/img/proyectos/barberia.png",
+        "link": "https://frontend-appsalon-cliente.netlify.app/",
+        "git": "https://github.com/Luciano-17/Appsalon_frontend-cliente"
+    },
+    {
+        "id": "2",
+        "nombre": "Admin de Barberia",
+        "categoria": "Basico",
+        "tecnologias": ["HTML", "Tailwind", "React", "Node"],
+        "descripcion": "Adminitrador de citas para barbería, donde se podra hacer un CRUD completo de estas mismas.",
+        "link": "https://frontend-appsalon.netlify.app/",
+        "img": "./src/img/proyectos/adminBarberia.png",
+        "git": "https://github.com/Luciano-17/Appsalon_frontend-appsalon"
+    },
+    {
+        "id": "3",
+        "nombre": "Admin de Barberia",
+        "categoria": "Basico",
+        "tecnologias": ["HTML", "Tailwind", "React", "Node"],
+        "descripcion": "Adminitrador de citas para barbería, donde se podra hacer un CRUD completo de estas mismas.",
+        "link": "https://frontend-appsalon.netlify.app/",
+        "img": "./src/img/proyectos/adminBarberia.png",
+        "git": "https://github.com/Luciano-17/Appsalon_frontend-appsalon"
+    },
+    {
+        "id": "4",
+        "nombre": "Admin de Barberia",
+        "categoria": "Basico",
+        "tecnologias": ["HTML", "Tailwind", "React", "Node"],
+        "descripcion": "Adminitrador de citas para barbería, donde se podra hacer un CRUD completo de estas mismas.",
+        "link": "https://frontend-appsalon.netlify.app/",
+        "img": "./src/img/proyectos/adminBarberia.png",
+        "git": "https://github.com/Luciano-17/Appsalon_frontend-appsalon"
+    },
+    {
+        "id": "5",
+        "nombre": "Bienes Raíces",
+        "categoria": "Intermedio",
+        "tecnologias": ["PHP", "JavaScript", "Sass", "MySQL"],
+        "descripcion": "Tienda eCommerce, blog, noticias y contactos para una empresa de bienes raíces.",
+        "link": "https://bienesraicesluciano.netlify.app/",
+        "img": "./src/img/proyectos/bienesRaices.png",
+        "git": "https://github.com/Luciano-17/bienes-raices"
+    },
+    {
+        "id": "6",
+        "nombre": "Todo Machine",
+        "categoria": "Intermedio",
+        "tecnologias": ["HTML", "React"],
+        "descripcion": "Aplicacion para administrar tareas diarias, en donde se podran completar, editar y/o eliminar.",
+        "link": "https://todo-villarreal.netlify.app/",
+        "img": "./src/img/proyectos/todoMachine.png",
+        "git": "https://github.com/Luciano-17/todo-app"
+    },
+    {
+        "id": "7",
+        "nombre": "Todo Machine",
+        "categoria": "Intermedio",
+        "tecnologias": ["HTML", "React"],
+        "descripcion": "Aplicacion para administrar tareas diarias, en donde se podran completar, editar y/o eliminar.",
+        "link": "https://todo-villarreal.netlify.app/",
+        "img": "./src/img/proyectos/todoMachine.png",
+        "git": "https://github.com/Luciano-17/todo-app"
+    },
+    {
+        "id": "8",
+        "nombre": "Todo Machine",
+        "categoria": "Intermedio",
+        "tecnologias": ["HTML", "React"],
+        "descripcion": "Aplicacion para administrar tareas diarias, en donde se podran completar, editar y/o eliminar.",
+        "link": "https://todo-villarreal.netlify.app/",
+        "img": "./src/img/proyectos/todoMachine.png",
+        "git": "https://github.com/Luciano-17/todo-app"
+    },
+    {
+        "id": "9",
+        "nombre": "UpTask",
+        "categoria": "Experto",
+        "tecnologias": ["PHP", "JavaScript", "Sass", "MySQL"],
+        "descripcion": "Adminitrador de tareas, con el uso de un registro de usuarios.",
+        "link": "#",
+        "img": "./src/img/proyectos/uptask.png",
+        "git": "https://github.com/Luciano-17/UpTask_MVC"
+    },
+    {
+        "id": "10",
+        "nombre": "Cotizador de Criptomonedas",
+        "categoria": "Experto",
+        "tecnologias": ["HTML", "Tailwind", "React", "Node"],
+        "descripcion": "Administrador de pacientes de veterinaria, con un CRUD para las citas de estos mismos.",
+        "link": "https://apv-villarreal.netlify.app/",
+        "img": "./src/img/proyectos/apv.png",
+        "git": "https://github.com/Luciano-17/APV_MERN_frontend"
+    },
+    {
+        "id": "11",
+        "nombre": "UpTask",
+        "categoria": "Experto",
+        "tecnologias": ["PHP", "JavaScript", "Sass", "MySQL"],
+        "descripcion": "Adminitrador de tareas, con el uso de un registro de usuarios.",
+        "link": "#",
+        "img": "./src/img/proyectos/uptask.png",
+        "git": "https://github.com/Luciano-17/UpTask_MVC"
+    },
+    {
+        "id": "12",
+        "nombre": "UpTask",
+        "categoria": "Experto",
+        "tecnologias": ["PHP", "JavaScript", "Sass", "MySQL"],
+        "descripcion": "Adminitrador de tareas, con el uso de un registro de usuarios.",
+        "link": "#",
+        "img": "./src/img/proyectos/uptask.png",
+        "git": "https://github.com/Luciano-17/UpTask_MVC"
+    }
+]
