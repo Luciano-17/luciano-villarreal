@@ -6,7 +6,9 @@ const Proyecto = ({proyecto}) => {
     return (
         <div className="card-proyecto">
             <div className='card-info'>
-                <img src={img} alt={nombre} />
+                <a href={link} target="_blank">
+                    <img src={img} alt={nombre} />
+                </a>
 
                 <h3 className='titulo'>{nombre}</h3>
 

@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 30%;
-    height: 55rem;
+    height: 60rem;
     gap: 2rem;
 }
 .card .icono-card {
@@ -53,9 +53,29 @@
         flex-direction: column;
     }
     .card {
-        height: 60rem;
-        width: 80%;
+        height: auto;
         margin: 0 auto;
+    }
+}
+@media (max-width: 998px) {
+    .card {
+        width: 50%;
+    }
+    .card .icono-card {
+        font-size: 6.5rem;
+    }
+    .card p {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 762px) {
+    #sobreMi {
+        margin-top: -12rem;
+    }
+    .card {
+        width: 90%;
+        padding: 1rem;
     }
 }
 @media (max-width: 567px) {
@@ -63,8 +83,10 @@
         flex-direction: column;
     }
     .card {
-        height: 60rem;
-        width: 80%;
+        height: auto;
         margin: 0 auto;
+    }
+    .card .icono-card {
+        font-size: 6rem;
     }
 }

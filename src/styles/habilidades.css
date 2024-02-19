@@ -188,3 +188,55 @@ body.dark-mode .modal .modal-content .modal-close {
 body.dark-mode .modal .modal-content .modal-close:hover {
     background-color: #100a1e;
 }
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .hab-card {
+        padding: 6rem 9rem;
+    }
+}
+@media (max-width: 1420px) and (min-width: 1201px) {
+    .hab-card {
+        padding: 4rem 5rem;
+    }
+}
+@media (max-width: 992px) {
+    .container-habilidades {
+        flex-direction: column;
+    }
+    .hab-card {
+        margin: 0 auto;
+        padding: 5rem 14rem;
+    }
+    .container-habilidades img.img-padre {
+        width: 17.5rem;
+    }
+    .modal .modal-content {
+        width: 80%;
+    }
+    .modal .modal-content .modal-close {
+        font-size: 2rem;
+    }
+    .modal .modal-content .modal-header h3 {
+        font-size: 2.5rem;
+    }
+    .modal .modal-content .modal-body p {
+        font-size: 2rem;
+    }
+    .modal-body .nivel span {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 568px) {
+    .hab-card {
+        padding: 3rem 6.5rem;
+    }
+    .container-habilidades img.img-padre {
+        width: 15rem;
+    }
+    .card-desglose.css {
+        width: 80%;
+    }
+    .container-habilidades img.img-hijo {
+        width: 6rem;
+    }
+}

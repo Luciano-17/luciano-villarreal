@@ -5,19 +5,23 @@ import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 
+import useScreenSize from './hooks/useScreenSize';
+
 const App = () => {
+    const resize = useScreenSize();
+
     return (
         <>
-            <Header />
+            <Header width={resize.width} height={resize.height} />
             
             <div className='contenedor'>
-                <SobreMi />
-                <Habilidades />
-                <Proyectos />
-                <Contacto />
+                <SobreMi width={resize.width} height={resize.height} />
+                <Habilidades width={resize.width} height={resize.height} />
+                <Proyectos width={resize.width} height={resize.height} />
+                <Contacto width={resize.width} height={resize.height} />
             </div>
 
-            <Footer />
+            <Footer width={resize.width} height={resize.height} />
         </>
     );
 };

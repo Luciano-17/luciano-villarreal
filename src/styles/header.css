@@ -40,6 +40,9 @@ span.dev {
     animation: typing 1.5s steps(13) infinite alternate, blink-care .5s infinite step-end alternate;
     overflow: hidden;
 }
+.presentacion .btn-sobremi a.btn {
+    display: inline-block;
+}
   
 @keyframes typing {
     from {
@@ -56,4 +59,20 @@ span.dev {
         border-color: var(--primario);
     }
 }
-  
+
+@media (max-width: 998px) {
+    .presentacion,
+    span.dev {
+        text-align: center;
+    }
+    span.dev {
+        margin: 1rem auto 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .presentacion .btn-sobremi a.btn {
+        display: block;
+        margin: 0 2rem;
+    }
+}

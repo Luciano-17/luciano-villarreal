@@ -1,10 +1,10 @@
 import Navegacion from "./Navegacion";
 import '../styles/header.css';
 
-const Header = () => {
+const Header = ({width, height}) => {
     return (
         <header id="inicio">
-            <Navegacion />
+            <Navegacion width={width} height={height} />
 
             <div className="contenedor-presentacion">
                 <div className="presentacion">
@@ -17,7 +17,7 @@ const Header = () => {
                         <span className="dev">Desarrollador</span>
                     </div>
 
-                    <div>
+                    <div className="btn-sobremi">
                         <a
                             className="btn"
                             href='#sobreMi'

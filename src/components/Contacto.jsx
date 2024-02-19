@@ -12,7 +12,7 @@ const Contacto = () => {
                     Puedes comunicarte conmigo medianto un correo electrónico para cualquier oferta o proyecto
                 </p>
                 
-                <div>
+                <div className='btn-mail'>
                     <a
                         className="btn"
                         href="mailto:lucianovillarreal.cba@gmail.com?Subject=Me%20contacto%20desde%20tu%20portafolio"

@@ -1,3 +1,22 @@
 .container-contacto {
     text-align: center;
 }
+.container-contacto p {
+    font-size: 2.5rem;
+}
+.container-contacto .btn-mail {
+    margin-top: 5rem;
+}
+.container-contacto .btn-mail a.btn {
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .container-contacto p {
+        font-size: 2.25rem;
+    }
+    .container-contacto .btn-mail a.btn {
+        display: block;
+        margin: 0 2rem;
+    }
+}

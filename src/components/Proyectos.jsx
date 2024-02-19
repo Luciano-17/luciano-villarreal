@@ -1,4 +1,4 @@
-import {Component as Carruseles} from './Carrusel';
+import Proyecto from './Proyecto';
 import data from '../data/proyectos.json';
 import '../styles/proyectos.css';
 
@@ -21,27 +21,33 @@ const Proyectos = () => {
         <section className="seccion" id="proyectos">
             <h2 className="titulo-section">Mis Proyectos</h2>
             
-            <div className="carrusel basico">
+            <div className="listado basico">
                 <h3>Básicos</h3>
 
-                <div className="cards-proyectos">
-                    <Carruseles proyectos={basicos} />
+                <div className='container-listado'>
+                    {basicos.map(item => (
+                        <Proyecto key={item.id} proyecto={item}/>
+                    ))}
                 </div>
             </div>
 
-            <div className="carrusel intermedio">
+            <div className="listado intermedio">
                 <h3>Intermedios</h3>
 
-                <div className="cards-proyectos">
-                    <Carruseles proyectos={intermedios} />
+                <div className='container-listado'>
+                    {intermedios.map(item => (
+                        <Proyecto key={item.id} proyecto={item}/>
+                    ))}
                 </div>
             </div>
 
-            <div className="carrusel experto">
+            <div className="listado experto">
                 <h3>Expertos</h3>
 
-                <div className="cards-proyectos">
-                    <Carruseles proyectos={expertos} />
+                <div className='container-listado'>
+                    {expertos.map(item => (
+                        <Proyecto key={item.id} proyecto={item}/>
+                    ))}
                 </div>
             </div>
         </section>
