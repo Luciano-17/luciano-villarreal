@@ -17,6 +17,11 @@
     gap: 2.5rem;
 }
 
+body.dark-mode .redes a {
+    background-color: transparent;
+    color: var(--blanco);
+}
+
 @media (max-width: 900px) {
     .contenido-footer {
         flex-direction: column-reverse;
